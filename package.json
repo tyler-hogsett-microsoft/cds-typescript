@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "mocha -w",
-    "test": "mocha"
+    "test": "mocha",
+    "init": "tsc --init",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
