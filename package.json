@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tyler-hogsett-microsoft/cds-typescript#readme",
   "devDependencies": {
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "typescript": "^3.9.5"
   }
 }
