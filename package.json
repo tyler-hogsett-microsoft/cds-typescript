@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tyler-hogsett-microsoft/cds-typescript/issues"
   },
-  "homepage": "https://github.com/tyler-hogsett-microsoft/cds-typescript#readme"
+  "homepage": "https://github.com/tyler-hogsett-microsoft/cds-typescript#readme",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
 }
