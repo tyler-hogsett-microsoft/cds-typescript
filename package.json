@@ -2,12 +2,13 @@
   "name": "cds-typescript-workspace",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "greeting.js",
   "scripts": {
     "dev": "mocha -w",
     "test": "mocha",
     "init": "tsc --init",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node greeting.js"
   },
   "repository": {
     "type": "git",
