@@ -1,2 +1,13 @@
-const message: string = "Hello, World!";
-console.log(message);
+greet({
+    firstName: "Tommy",
+    lastName: "Pickles"
+});
+
+type Person = {
+    firstName: string,
+    lastName: string
+}
+
+function greet(person: Person) {
+    console.log(`Hello, ${person.firstName} ${person.lastName}!`);
+}
