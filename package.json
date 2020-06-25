@@ -5,7 +5,7 @@
   "main": "greeting.js",
   "scripts": {
     "dev": "mocha -w",
-    "test": "mocha",
+    "test": "ts-mocha -p tsconfig.json test.ts",
     "init": "tsc --init",
     "build": "tsc",
     "start": "ts-node greeting.ts"
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/tyler-hogsett-microsoft/cds-typescript#readme",
   "devDependencies": {
     "mocha": "^8.0.1",
-    "ts-node": "^8.10.2",
+    "ts-mocha": "^7.0.0",
     "typescript": "^3.9.5"
   }
 }
