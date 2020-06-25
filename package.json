@@ -4,7 +4,7 @@
   "description": "",
   "main": "greeting.js",
   "scripts": {
-    "dev-mocha": "mocha -w",
+    "dev": "mocha -w",
     "test": "mocha",
     "init": "tsc --init",
     "build": "tsc",
