@@ -4,8 +4,8 @@
   "description": "",
   "main": "greeting.js",
   "scripts": {
-    "dev": "ts-mocha -p tsconfig.json src/**/*.ts --watch --watch-files src/**/*.ts",
-    "test": "ts-mocha -p tsconfig.json src/**/*.ts",
+    "dev": "ts-mocha -p tsconfig.json src/**/*.spec.ts --watch --watch-files src/**/*.ts",
+    "test": "ts-mocha -p tsconfig.json src/**/*.spec.ts",
     "build": "tsc",
     "start": "ts-node greeting.ts",
     "check": "tsc --noEmit --project tsconfig.json --watch"
