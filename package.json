@@ -4,12 +4,11 @@
   "description": "",
   "main": "greeting.js",
   "scripts": {
-    "dev": "ts-mocha -p tsconfig.json test.ts --watch --watch-files test.ts",
-    "test": "ts-mocha -p tsconfig.json test.ts",
+    "dev": "ts-mocha -p tsconfig.json src/**/*.ts --watch --watch-files src/**/*.ts",
+    "test": "ts-mocha -p tsconfig.json src/**/*.ts",
     "build": "tsc",
     "start": "ts-node greeting.ts",
-    "check": "tsc --noEmit --project tsconfig.json --watch",
-    "format": "prettier --write test.ts"
+    "check": "tsc --noEmit --project tsconfig.json --watch"
   },
   "repository": {
     "type": "git",
