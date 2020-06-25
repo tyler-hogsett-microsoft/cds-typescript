@@ -2,12 +2,12 @@
   "name": "cds-typescript-workspace",
   "version": "1.0.0",
   "description": "",
-  "main": "greeting.js",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "ts-mocha -p tsconfig.json src/**/*.spec.ts --watch --watch-files src/**/*.ts",
     "test": "ts-mocha -p tsconfig.json src/**/*.spec.ts",
     "build": "tsc",
-    "start": "ts-node greeting.ts",
+    "start": "ts-node src/index.ts",
     "check": "tsc --noEmit --project tsconfig.json --watch"
   },
   "repository": {
