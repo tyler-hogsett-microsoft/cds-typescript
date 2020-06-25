@@ -8,7 +8,7 @@
     "test": "mocha",
     "init": "tsc --init",
     "build": "tsc",
-    "start": "node greeting.js"
+    "start": "ts-node greeting.ts"
   },
   "repository": {
     "type": "git",
