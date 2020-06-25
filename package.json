@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "mocha -w",
     "test": "ts-mocha -p tsconfig.json test.ts",
-    "init": "tsc --init",
     "build": "tsc",
     "start": "ts-node greeting.ts"
   },
