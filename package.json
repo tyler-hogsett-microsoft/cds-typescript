@@ -4,11 +4,10 @@
   "description": "",
   "main": "greeting.js",
   "scripts": {
-    "dev": "mocha -w",
+    "dev": "ts-mocha -p src/tsconfig.json src/test.ts -w --watch-extensions ts",
     "test": "mocha",
     "init": "tsc --init",
-    "build": "tsc",
-    "start": "ts-node greeting.ts"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
