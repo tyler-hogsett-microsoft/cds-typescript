@@ -8,7 +8,8 @@
     "test": "ts-mocha -p tsconfig.json test.ts",
     "build": "tsc",
     "start": "ts-node greeting.ts",
-    "check": "tsc --noEmit --project tsconfig.json --watch"
+    "check": "tsc --noEmit --project tsconfig.json --watch",
+    "format": "prettier --write test.ts"
   },
   "repository": {
     "type": "git",
@@ -21,14 +22,13 @@
   },
   "homepage": "https://github.com/tyler-hogsett-microsoft/cds-typescript#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "@types/node": "^14.0.14",
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
+    "prettier": "^2.0.5",
     "ts-mocha": "^7.0.0",
     "typescript": "^3.9.5"
-  },
-  "dependencies": {
-    "@types/chai": "^4.2.11"
   }
 }
